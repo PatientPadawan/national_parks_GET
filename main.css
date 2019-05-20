@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+}
+
+.hidden {
+    display: none
+}
+
+.error-message {
+    color: red;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+    padding: 3% 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 10px;
+}
+
+input {
+    margin: 2% 0;
+}
+
+#results {
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+}
