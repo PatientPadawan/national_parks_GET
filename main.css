@@ -4,6 +4,8 @@
 
 body {
     font-family: 'Courier New', Courier, monospace, sans-serif;
+    background: rgb(0,128,64);
+    background: linear-gradient(45deg, rgba(0,128,64,1) 0%, rgba(75,106,136,1) 100%);
 }
 
 .hidden {
@@ -40,4 +42,12 @@ input {
 
 h2 {
     text-align: center;
+}
+
+a:hover {
+    cursor:pointer;
+}
+
+input:hover {
+    cursor: pointer;
 }
